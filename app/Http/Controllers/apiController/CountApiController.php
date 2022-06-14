@@ -93,6 +93,7 @@ class CountApiController extends Controller
     {
         $res = DB::select('SELECT IdUserLiker FROM proposition_idees');
         $res = json_decode($res, true);
+        exit;
 
 
     }
